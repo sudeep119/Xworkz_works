@@ -12,4 +12,5 @@ class Brush {
     public void scrub() {
         System.out.println("Scrubbing with a " + color + " brush.");
 }
+    
 }

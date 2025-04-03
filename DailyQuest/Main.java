@@ -1,3 +1,5 @@
+import Example_works.Access;
+
 public class Main {
     public static void main(String[] args) {
         // Clips
@@ -8,7 +10,8 @@ public class Main {
         Clip clip5 = new Clip(Color.PURPLE);
 
         Clip[] clips = {clip1, clip2, clip3, clip4, clip5};
-
+         Access obj=new Access();
+         obj.
         Pushpa pushpa = new Pushpa();
         pushpa.useClip(clips);
 
