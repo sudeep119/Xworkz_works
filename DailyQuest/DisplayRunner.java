@@ -1,4 +1,3 @@
-package com.xworkz.demo1;
 
 class Player {
     void play() {

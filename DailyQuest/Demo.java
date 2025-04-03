@@ -1,4 +1,4 @@
-package com.xworkz.demo1;
+
 
 class Poster {
     void showInfo() {
