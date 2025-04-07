@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.animal.Animal;
 import com.xworkz.inheritence.internal.animal.Dog;
+import com.xworkz.inheritence.internal.animal.Dog2;
 
 public class AnimalRunner {
     public static void main(String[] args) {
@@ -19,6 +20,9 @@ public class AnimalRunner {
         dog.sound();
         dog.run();
         dog.breathe();
+
+        Dog2 dg=new Dog2();
+        dg.Barki(animal);
 
     }
 }
