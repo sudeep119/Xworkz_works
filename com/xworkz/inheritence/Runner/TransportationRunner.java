@@ -5,14 +5,23 @@ import com.xworkz.inheritence.internal.transportation.Train;
 
 public class TransportationRunner {
     public static void main(String[] args) {
-        Transportation transport = new Train();
+
+
+        Transportation transport = new Transportation();
         transport.move();
         transport.speed();
         transport.fuel();
         transport.capacity();
         transport.type();
+        System.out.println("**************************************");
+        Transportation transport1 = new Train();
+        transport1.move();
+        transport1.speed();
+        transport1.fuel();
+        transport1.capacity();
+        transport1.type();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
 
         Train train = new Train();
         train.move();
@@ -20,5 +29,7 @@ public class TransportationRunner {
         train.fuel();
         train.capacity();
         train.type();
+
+        System.out.println("**************************************");
     }
 }
