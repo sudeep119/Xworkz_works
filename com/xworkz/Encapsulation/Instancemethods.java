@@ -16,4 +16,7 @@ public class Instancemethods {
     private void printphone(){
         System.out.println("Phone number is:"+this.phone);
     }
+    private void printAll(){
+        System.out.println(this.name+" "+this.age+" "+this.phone);
+    }
 }
